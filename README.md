@@ -1,12 +1,11 @@
 # Health-and-Wellness-Tracker
 # Daily Management tool used to flag abnormalities in people's health, motivate people to be aware of their overall health, and prevent detrimental effects of chronic diseases.
-
-clc;clear;
-% Introduction, where the patient chooses what he wants to calculate.
+clc; 
+clear;
+# Introduction, where the patient chooses what he wants to calculate.
 n = 1;
 while n == 1
     q1= fprintf('Welcome to the health tracker calculator, please select which option you are interested in knowing more about: \n  ');
-   
     options1= fprintf(' A) Body Mass Index     B) Heart Rate \n   C) Water Intake        D) Sleep Tracker\n');
     ans1= input('Option: ','s');
    
