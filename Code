@@ -83,6 +83,7 @@ while n == 1
         hold on
         plot(HR,0,'X','MarkerSize',12','LineWidth', 3,'Color','r')
         yticks([]);
+        legend('Range for Target HR')
         xlim([60,190])
         xlabel('Heart Rate (bpm)')
         title('Target Heart Rate')
@@ -129,7 +130,7 @@ while n == 1
         figure
         bar(x,y)
         hold on
-        plot(pounds,x11,'X','MarkerSize',12','LineWidth', 3,'Color','r')
+        plot(pounds,h2o,'X','MarkerSize',12','LineWidth', 3,'Color','r')
         xlabel('Weight (lb)')
         ylabel('8oz cups of water')
         title('Water Intake')
